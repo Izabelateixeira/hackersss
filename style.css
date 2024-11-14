@@ -1,0 +1,11 @@
+@import url(style/body.css);
+@import url(style/cabecadas.css);
+@import url(style/footer.css);
+
+:root{
+  --cor-de-fundo:var(#8D0000,#680000)
+}
+
+body{
+    background-color: var(--cor-de-fundo)
+}s
