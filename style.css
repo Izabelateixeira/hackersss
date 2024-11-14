@@ -3,9 +3,10 @@
 @import url(style/footer.css);
 
 :root{
-  --cor-de-fundo:var(#8D0000,#680000)
+  --fonte-princ:"Hermeneus One";
+  --vermelho-degrade:linear-gradient(#8D0000 100%, #680000 52%)
 }
-
 body{
-    background-color: var(--cor-de-fundo)
-}s
+  font-family: var(--fonte-princ);
+  background-color: var(--vermelho-degrade);
+}
