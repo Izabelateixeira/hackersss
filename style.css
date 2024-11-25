@@ -1,12 +1,61 @@
-@import url(style/body.css);
-@import url(style/cabecadas.css);
-@import url(style/footer.css);
+@import url('style/body.css');
+@import url('style/cabecadas.css');
+@import url('style/footer.css');
 
-:root{
-  --fonte-princ:"Hermeneus One";
-  --vermelho-degrade:linear-gradient(#8D0000 100%, #680000 52%)
+:root {
+  --fonte-princ: "Hermeneus One", sans-serif;
+  --vermelho-degrade: linear-gradient(to right, #2F0000, #680000, #8D0000);
 }
-body{
+
+.body {
   font-family: var(--fonte-princ);
-  background-color: var(--vermelho-degrade);
+  background: var(--vermelho-degrade);
+  margin: 100;
+  padding: 100;
+}
+
+.cabecudo {
+  text-align: center;
+  padding: 20px;
+  }
+
+.title {
+  font-size: 2.5em;
+  color: #fff;
+}S
+
+.link a {
+  margin: 0 15px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.net img {
+  max-width: 100%;
+}
+
+.section {
+  padding: 20px;
+}
+
+.TEXTO {
+  font-size: 1.2em;
+  color: #FFF;
+}
+
+.rodape {
+  footer {
+    background: linear-gradient(to right, #680000, #CE0909, #680000, #8D0000);
+    padding: 20px; 
+    color: white; 
+    text-align: center; 
+  }
+}
+
+.rodapezinho {
+  margin: 0;
 }
