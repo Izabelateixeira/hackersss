@@ -3,39 +3,52 @@
 @import url('style/footer.css');
 
 :root {
-  --fonte-princ: "Hermeneus One", sans-serif;
+  --fonte-princ: "Irish Grover", system-ui;
   --vermelho-degrade: linear-gradient(to right, #2F0000, #680000, #8D0000);
 }
 
-.body {
+body {
   font-family: var(--fonte-princ);
   background: var(--vermelho-degrade);
-  margin: 100;
-  padding: 100;
+  margin: 0; 
+  padding: 0; 
+}
+
+.Privacidade-Hackeada{
+  align-items: flex-start;
+  margin-top: 30px;
+  font-family: var(--fonte-princ);
+  text-align: right; 
+  font-size: xx-large;
+  color: #FFF;
 }
 
 .cabecudo {
   text-align: center;
   padding: 20px;
-  }
-
-.title {
-  font-size: 2.5em;
-  color: #fff;
-}S
+  font-family: var(--fonte-princ);
+}
 
 .link a {
+  font-family: var(--fonte-princ);
   margin: 0 15px;
   color: #FFF;
-  text-decoration: none;
+  text-decoration: #071099;
 }
 
 .link a:hover {
   text-decoration: underline;
+  font-family: var(--fonte-princ);
 }
+
 
 .net img {
   max-width: 100%;
+}
+
+.homi{
+    width: 500px; 
+    height: auto;
 }
 
 .section {
@@ -43,19 +56,36 @@
 }
 
 .TEXTO {
-  font-size: 1.2em;
+  margin-top: 30px;
+  font-family: var(--fonte-princ);
+  text-align: justify;
+  font-size: xx-large;
   color: #FFF;
+  height: 5000%;
+  max-width: 590px;
+  
 }
 
-.rodape {
-  footer {
-    background: linear-gradient(to right, #680000, #CE0909, #680000, #8D0000);
-    padding: 20px; 
-    color: white; 
-    text-align: center; 
-  }
+.content {
+  display: flex; 
+  justify-content: flex-end; /
+}
+
+
+footer {
+  background: linear-gradient(to right, #2F0000, #da0c0c, #da0c0c, #240000);
+  padding: 20px; 
+  color: white; 
+  text-align: center; 
 }
 
 .rodapezinho {
   margin: 0;
+}
+
+.textinho{
+  font-family: var(--fonte-princ);
+  text-align: right;
+  margin-right: 80px;
+  color: #FFF;
 }
